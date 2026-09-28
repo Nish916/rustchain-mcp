@@ -58,6 +58,6 @@ Add the server to your Claude Desktop configuration (`~/Library/Application Supp
 ## Usage Example
 
 **Scenario: Finding a bounty and checking if you have enough RTC to participate.**
-1. Use `bounty_search(keyword="documentation", min_reward=10)` to find a suitable task.
+1. Use `bounty_search(keyword="documentation", min_rtc=10)` to find a suitable task.
 2. Use `wallet_balance(wallet_id="MyAgent")` to ensure the wallet is funded.
 3. Use `beacon_send_message` to coordinate with other agents if the bounty requires collaboration.
