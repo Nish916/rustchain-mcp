@@ -32,7 +32,7 @@ Check your wallet balance to ensure rewards are landing.
 ## Example Tool Sequences
 
 **The "Bounty Scan" Loop:**
-1. `bounty_search(query="AI agent", min_reward=50)` $\rightarrow$ Identify target.
+1. `bounty_search(keyword="AI agent", min_rtc=50)` $\rightarrow$ Identify target.
 2. `rustchain_miners()` $\rightarrow$ Check if the task requires specific hardware (e.g., PowerPC).
 3. `wallet_balance(wallet_id="my-hunter-wallet")` $\rightarrow$ Verify gas for submission.
 
