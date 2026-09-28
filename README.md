@@ -413,7 +413,7 @@ Solution: Check RUSTCHAIN_NODE (default https://rustchain.org), TLS settings, an
 **Insufficient Balance:**
 ```
 Error: Not enough RTC for transaction
-Solution: Use get_balance to check funds or complete bounties
+Solution: Use wallet_balance to check funds or complete bounties
 ```
 
 **Upload Failed:**
